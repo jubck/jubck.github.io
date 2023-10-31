@@ -2,14 +2,16 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
 }
 
 .countdown {
     background-color: #fff;
     max-width: 400px;
-    margin: 50px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -24,8 +26,10 @@ h1 {
     font-size: 32px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 span {
     padding: 10px;
 }
+
