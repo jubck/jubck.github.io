@@ -2,15 +2,19 @@ const daysEl = document.getElementById('days');
 const hoursEl = document.getElementById('hours');
 const minsEl = document.getElementById('minutes');
 const secsEl = document.getElementById('seconds');
+const startButton = document.getElementById('startButton');
+const hourInput = document.getElementById('hourInput');
 
-const newBeginnings = '4 Nov 2023';
+let judgingHour = 0; // Initialize with 0 hours
 
-function countdown() {
+// Function to update the countdown
+function updateCountdown() {
+    const newBeginnings = `4 Nov 2023 ${judgingHour}:00:00`; // Use judgingHour
     const newDate = new Date(newBeginnings);
     const currentDate = new Date();
 
     const totalSeconds = (newDate - currentDate) / 1000;
-    
+
     const days = Math.floor(totalSeconds / 3600 / 24);
     const hours = Math.floor(totalSeconds / 3600) % 24;
     const minutes = Math.floor(totalSeconds / 60) % 60;
@@ -22,7 +26,16 @@ function countdown() {
     secsEl.innerHTML = seconds;
 }
 
-// initial call
-countdown();
+// Function to start the countdown
+function startCountdown() {
+    judgingHour = parseInt(hourInput.value);
+    if (judgingHour >= 0 && judgingHour <= 23) {
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    } else {
+        alert('Please enter a valid hour (0-23)');
+    }
+}
 
-setInterval(countdown, 1000);
+// Add a click event listener to the "Start Countdown" button
+startButton.addEventListener('click', startCountdown);
