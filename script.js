@@ -9,7 +9,7 @@ let judgingHour = 0; // Initialize with 0 hours
 
 // Function to update the countdown
 function updateCountdown() {
-    const newBeginnings = `4 Nov 2023 ${judgingHour}:00:00`; // Use judgingHour
+    const newBeginnings = `4 Nov 2023 ${judgingHour}:15:00`; // Use judgingHour
     const newDate = new Date(newBeginnings);
     const currentDate = new Date();
 
