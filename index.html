@@ -20,31 +20,38 @@
     <!-- Big Heading -->
     <h1>Until Judging</h1>
     <!-- Countdown Timer -->
-        <div class="countdown-container">
-            <!-- Days -->
-            <div class="center days-container">
-                <p class="bigtext" id="days">0</p>                
-                <span>days</span>
-            </div>
+<div class="countdown-container">
+    <!-- Input for Judging Hour -->
+    <div class="center hour-input-container">
+        <input type="number" id="hourInput" placeholder="Enter hour (0-23)">
+        <button id="startButton">Start Countdown</button>
+    </div>
 
-            <!-- Hours -->
-            <div class="center hours-container">
-                <p class="bigtext" id="hours">0</p>                
-                <span>hours</span>
-            </div>
+    <!-- Days -->
+    <div class="center days-container">
+        <p class="bigtext" id="days">0</p>
+        <span>days</span>
+    </div>
 
-            <!-- Minutes -->
-            <div class="center minutes-container">
-                <p class="bigtext" id="minutes">0</p>                
-                <span>mins</span>
-            </div>
-            
-            <!-- Seconds -->
-            <div class="center seconds-container">
-                <p class="bigtext" id="seconds">0</p>                
-                <span>secs</span>
-            </div>
-        </div>
+    <!-- Hours -->
+    <div class="center hours-container">
+        <p class="bigtext" id="hours">0</p>
+        <span>hours</span>
+    </div>
+
+    <!-- Minutes -->
+    <div class="center minutes-container">
+        <p class="bigtext" id="minutes">0</p>
+        <span>mins</span>
+    </div>
+
+    <!-- Seconds -->
+    <div class="center seconds-container">
+        <p class="bigtext" id="seconds">0</p>
+        <span>secs</span>
+    </div>
+</div>
+
 
     <!------------------------------------------------- Three JS Space Background ---------------------------------------->
     <script src="three.min.js"></script>
