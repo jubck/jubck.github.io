@@ -1,7 +1,29 @@
+@font-face {
+    font-family: 'Atlas Grotesk Web Regular Regular';
+    src: url('https://db.onlinewebfonts.com/t/0a5fbb91dc4a457f5945dca11d44517d.eot');
+    src: url('https://db.onlinewebfonts.com/t/0a5fbb91dc4a457f5945dca11d44517d.eot?#iefix') format('embedded-opentype'),
+         url('https://db.onlinewebfonts.com/t/0a5fbb91dc4a457f5945dca11d44517d.woff2') format('woff2'),
+         url('https://db.onlinewebfonts.com/t/0a5fbb91dc4a457f5945dca11d44517d.woff') format('woff'),
+         url('https://db.onlinewebfonts.com/t/0a5fbb91dc4a457f5945dca11d44517d.ttf') format('truetype'),
+         url('https://db.onlinewebfonts.com/t/0a5fbb91dc4a457f5945dca11d44517d.svg#Atlas Grotesk Web Regular Regular') format('svg');
+}
+
+@font-face {
+    font-family: 'PortraitLight';
+    src: url('https://db.onlinewebfonts.com/t/6d126d1cf218a43fb9548319f5824445.eot');
+    src: url('https://db.onlinewebfonts.com/t/6d126d1cf218a43fb9548319f5824445.eot?#iefix') format('embedded-opentype'),
+         url('https://db.onlinewebfonts.com/t/6d126d1cf218a43fb9548319f5824445.woff2') format('woff2'),
+         url('https://db.onlinewebfonts.com/t/6d126d1cf218a43fb9548319f5824445.woff') format('woff'),
+         url('https://db.onlinewebfonts.com/t/6d126d1cf218a43fb9548319f5824445.ttf') format('truetype'),
+         url('https://db.onlinewebfonts.com/t/6d126d1cf218a43fb9548319f5824445.svg#PortraitLight') format('svg');
+}
+
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Atlas Grotesk Web Regular Regular', Arial, sans-serif;
     text-align: center;
-    background-color: #007849;
+    background-image: url('https://www.qu.edu/494417/globalassets/global/media/qu/logos-graphics/0_university-wide/digital-backgrounds/quinnipiac-virtual-background_8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,6 +44,7 @@ body {
 h1 {
     font-size: 24px;
     color: #002E5D;
+    font-family: 'PortraitLight', Arial, sans-serif;
 }
 
 #countdown-display {
