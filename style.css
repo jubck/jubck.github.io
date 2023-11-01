@@ -34,10 +34,10 @@ body {
 
 .countdown {
     background-color: #FFF;
-    max-width: 400px;
+    width: 400px;
+    height: 400px;
     padding: 20px;
     border: 1px solid #FFF;
-    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -55,15 +55,19 @@ h1 {
     margin: 20px 0;
 }
 
-span {
+.countdown-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown-number span {
     padding: 10px;
     background-color: #FFD100;
     color: #0c2340;
     border-radius: 5px;
 }
 
-.countdown p {
-    font-size: 16px;
-    margin-top: 10px;
-    color: #0c2340;
+.countdown-number span + span {
+    margin-left: 5px;
 }
