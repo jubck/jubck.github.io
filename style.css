@@ -1,7 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
+    background-image: url('https://www.qu.edu/494417/globalassets/global/media/qu/logos-graphics/0_university-wide/digital-backgrounds/quinnipiac-virtual-background_8.png');
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
