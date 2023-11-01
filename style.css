@@ -33,9 +33,9 @@ body {
 }
 
 .countdown {
-    background-color: #FFF;
+    background-color: #FFD100; /* Yellow background for the countdown */
     width: 400px;
-    height: 400px;
+    height: 100px; /* Adjust height as needed */
     padding: 20px;
     border: 1px solid #FFF;
     box-shadow: 0 0.3125rem 0.9375rem rgba(0,0,0,.1);
@@ -57,16 +57,13 @@ h1 {
 
 .countdown-number {
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
 .countdown-number span {
     padding: 10px;
-    background-color: #FFD100;
     color: #0c2340;
     border-radius: 5px;
-    display: inline;
 }
 
 .countdown-number span + span {
