@@ -33,12 +33,12 @@ body {
 }
 
 .countdown {
-    background-color: #FFD100; /* Yellow background for the countdown */
-    width: 400px;
-    height: 100px; /* Adjust height as needed */
+    background-color: #FFF;
+    max-width: 400px;
     padding: 20px;
     border: 1px solid #FFF;
-    box-shadow: 0 0.3125rem 0.9375rem rgba(0,0,0,.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
@@ -55,17 +55,15 @@ h1 {
     margin: 20px 0;
 }
 
-.countdown-number {
-    display: flex;
-    align-items: center;
-}
-
-.countdown-number span {
+span {
     padding: 10px;
+    background-color: #FFD100;
     color: #0c2340;
     border-radius: 5px;
 }
 
-.countdown-number span + span {
-    margin-left: 5px;
+.countdown p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #0c2340;
 }
