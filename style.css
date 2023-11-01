@@ -29,21 +29,21 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    color: #002E5D;
+    color: #0c2340;
 }
 
 .countdown {
-    background-color: #FFFFFF;
+    background-color: #FFF;
     max-width: 400px;
     padding: 20px;
-    border: 1px solid #888888;
+    border: 1px solid #FFF;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
     font-size: 24px;
-    color: #002E5D;
+    color: #0c2340;
     font-family: 'PortraitLight', Arial, sans-serif;
 }
 
@@ -58,12 +58,12 @@ h1 {
 span {
     padding: 10px;
     background-color: #FFD100;
-    color: #002E5D;
+    color: #0c2340;
     border-radius: 5px;
 }
 
 .countdown p {
     font-size: 16px;
     margin-top: 10px;
-    color: #555;
+    color: #0c2340;
 }
