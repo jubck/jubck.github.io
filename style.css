@@ -27,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200vh;
+    height: 100vh;
     margin: 0;
     color: #0c2340;
 }
@@ -35,28 +35,28 @@ body {
 .countdown {
     background-color: #FFF;
     max-width: 400px;
-    padding: 40px;
+    padding: 20px;
     border: 1px solid #FFF;
     border-radius: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 24px;
     color: #0c2340;
     font-family: 'PortraitLight', Arial, sans-serif;
 }
 
 #countdown-display {
-    font-size: 64px;
+    font-size: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 span {
-    padding: 20px;
+    padding: 10px;
     background-color: #FFD100;
     color: #0c2340;
     border-radius: 0px;
@@ -64,7 +64,7 @@ span {
 }
 
 .countdown p {
-    font-size: 32px;
-    margin-top: 20px;
+    font-size: 16px;
+    margin-top: 10px;
     color: #0c2340;
 }
