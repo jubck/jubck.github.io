@@ -8,7 +8,7 @@ const interval = setInterval(function() {
 
     if (timeLeft <= 0) {
         clearInterval(interval);
-        document.getElementById("countdown-display").innerHTML = "Countdown Expired";
+        document.getElementById("countdown-timer").innerText = "Countdown Expired";
     } else {
         const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
         const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
