@@ -1,5 +1,5 @@
 # Quinnipiac Hackathon
-### Created by Brooks Jackson and Julia Bock
+### Created by Julia Bock and [Brooks Jackson](https://github.com/bjaxqq)
 
 Designed for the semi-annual Quinnipiac Hackathon as a timer to see how much time remains until judging begins.
 * [script.js](https://github.com/jubck/jubck.github.io/blob/main/script.js) was created by Julia Bock
