@@ -1,5 +1,5 @@
 // Set the target date for the countdown to November 4, 2023, 3:00 PM EST
-const targetDate = new Date('2023-11-04T15:00:00-05:00').getTime(); // Note: -05:00 represents Eastern Standard Time (EST)
+const targetDate = new Date('2023-11-04T14:00:00-05:00').getTime(); // Note: -05:00 represents Eastern Standard Time (EST)
 
 // Update the countdown every second
 const interval = setInterval(function() {
